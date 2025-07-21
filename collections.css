@@ -1,0 +1,126 @@
+body {
+    background: #101018;
+    color: #fff;
+    font-family: 'Orbitron', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main-wrapper {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.collections-main {
+    width: 100%;
+    max-width: none;
+    padding: 30px 0 0 0;
+}
+.collections-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #00f0ff;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.collections-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.collections-search input {
+    width: 400px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #00f0ff;
+    background: #181828;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+.collections-search input:focus {
+    border: 2px solid #00f0ff;
+}
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    max-width: 1400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.collection-card {
+    background: #181828;
+    border-radius: 16px;
+    box-shadow: 0 0 8px #00f0ff33;
+    text-align: center;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+    border: 1px solid #00f0ff;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+.collection-card:hover {
+    box-shadow: 0 0 10px 2px #00f0ff;
+    border: 1px solid #949c9c;
+    transform: scale(1.04);
+}
+.collection-img {
+    width: 100%;
+    max-width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background: #22222a;
+}
+.collection-info {
+    padding: 5px 10px;
+    
+}
+.collection-name {
+    color: #00f0ff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.collection-desc {
+    color: #b0b0b0;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+.collection-items {
+    background-color: #00f0ff;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 2px #00f0ff;
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    
+}
+.view-btn {
+    background: #00f0ff;
+    color: #181828;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 28px;
+    font-size: 0,8rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 8px #00f0ff33;
+    transition: background 0.2s, color 0.2s;
+}
+.view-btn:hover {
+    background: #00b8cc;
+    color: #fff;
+} 

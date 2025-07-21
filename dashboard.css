@@ -1,0 +1,188 @@
+body {
+    background: #101018;
+    color: #fff;
+    font-family: 'Orbitron', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main-wrapper {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.navbar-dashboard,
+.dashboard-main {
+    width: 100%;
+    max-width: none;
+}
+
+.navbar-dashboard {
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    background: #15112E;
+   
+   
+    border-bottom: 2px solid #00f0ff;
+}
+
+
+
+.connect-wallet {
+    background: #00f0ff;
+    color: #181828;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px #00f0ff33;
+}
+.dashboard-main {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 30px 0 0 0;
+}
+.dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #00f0ff;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.dashboard-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 18px;
+}
+.dashboard-card {
+    background: #181828;
+    border-radius: 16px;
+    box-shadow: 0 0 6px 1px #00f0ff33, 0 0 4px 1px #00f0ff22 inset;
+    border: 2px solid #00f0ff;
+    padding: 28px 36px;
+    min-width: 260px;
+    text-align: center;
+}
+.dashboard-card-title {
+    color: #00f0ff;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+.dashboard-card-value {
+    font-size: 1.1rem;
+    word-break: break-all;
+}
+.dashboard-actions {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 18px;
+}
+.refresh-btn, .disconnect-btn {
+    background: #00f0ff;
+    color: #181828;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 38px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 12px #00f0ff99;
+    margin: 0 8px;
+    transition: background 0.2s, color 0.2s;
+}
+.disconnect-btn {
+    background: #181828;
+    color: #ff4b4b;
+    border: 2px solid #ff4b4b;
+    box-shadow: 0 0 8px #ff4b4b44;
+}
+.refresh-btn:hover {
+    background: #00b8cc;
+}
+.disconnect-btn:hover {
+    background: #ff4b4b;
+    color: #fff;
+}
+.dashboard-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 10px;
+}
+.tab {
+    background: none;
+    border: none;
+    color: #00f0ff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: border 0.2s, color 0.2s;
+}
+.tab.active, .tab:hover {
+    border-bottom: 3px solid #00f0ff;
+    color: #fff;
+}
+.dashboard-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.dashboard-search input {
+    width: 400px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #d0d3d3;
+    background: #181828;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.dashboard-nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+.nft-card {
+    background: #22222a;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #00f0ff33;
+    padding: 16px 10px 10px 10px;
+    text-align: center;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nft-image {
+    width: 120px;
+    height: 120px;
+    background: #181828;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px #00f0ff22;
+}
+.nft-id {
+    color: #b0b0b0;
+    font-size: 0.85rem;
+    word-break: break-all;
+    margin-top: 4px;
+} 
