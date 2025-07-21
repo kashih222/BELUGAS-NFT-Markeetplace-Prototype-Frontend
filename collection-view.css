@@ -221,9 +221,10 @@ body {
     box-shadow: 0 0 16px 4px #25d4eb99, 0 0 12px #0a0e1a99;
 }
 .main-wrapper {
-    width: 1300px;
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
     box-sizing: border-box;
