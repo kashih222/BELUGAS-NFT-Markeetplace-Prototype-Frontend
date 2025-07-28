@@ -220,6 +220,25 @@ body {
     color: #fff;
     box-shadow: 0 0 16px 4px #25d4eb99, 0 0 12px #0a0e1a99;
 }
+<<<<<<< HEAD
+=======
+.main-wrapper {
+    max-width: 1400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.collection-header,
+.collection-content {
+    width: 100%;
+    max-width: none;
+}
+
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
 @media (max-width: 900px) {
     .collection-content {
         flex-direction: column;

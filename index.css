@@ -26,6 +26,11 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
+=======
+    max-width: 1300px;
+    margin: auto;
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
 
  
 }
@@ -138,7 +143,11 @@ body {
 
 /* Hero Section */
 .hero {
+<<<<<<< HEAD
     width: 100vw;
+=======
+    width: 1300px;
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
     height: 500px;
     text-align: center;
     position: relative;
@@ -150,6 +159,10 @@ body {
     padding: 0;
     margin-top: -100px ;
     border-radius: 20px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
 }
 
 .hero::before {
@@ -199,12 +212,20 @@ body {
 .hero-content {
     position: relative;
     z-index: 3;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
 }
 
 
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
 /* Collections Section */
 .collections {
     padding-top: 20px 20px 20px 20px ;
@@ -412,9 +433,13 @@ body {
 }
 
 /* Duplicate images for seamless loop */
+<<<<<<< HEAD
 .carousel {
     /* We'll duplicate the images in HTML if you want a perfect loop, but for now, this will scroll the 4 images */
 }
+=======
+
+>>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
 
 @media (max-width: 600px) {
     .carousel-wrapper {
