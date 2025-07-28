@@ -1,0 +1,70 @@
+body {
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.create-collection-container {
+    max-width: 600px;
+    margin: 48px auto;
+    background: none;
+    padding: 0 0 32px 0;
+}
+.create-collection-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.create-collection-container p {
+    color: #ccc;
+    margin-bottom: 24px;
+}
+.create-collection-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.create-collection-form label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.create-collection-form input[type="text"],
+.create-collection-form input[type="file"],
+.create-collection-form textarea,
+.create-collection-form select {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+.create-collection-form textarea {
+    resize: vertical;
+}
+.create-collection-form input[type="file"] {
+    padding: 6px 0;
+    color-scheme: dark;
+}
+.create-collection-form small {
+    color: #888;
+    margin-bottom: 8px;
+}
+.submit-btn {
+    background: #00f0ff;
+    color: #181828;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s, color 0.2s;
+}
+.submit-btn:hover {
+    background: #00b8cc;
+    color: #fff;
+} 

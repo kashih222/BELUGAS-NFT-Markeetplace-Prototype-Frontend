@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Collection - BELUGAS</title>
+    <link rel="stylesheet" href="create-collection.css">
+</head>
+<body>
+    <div class="create-collection-container">
+        <h1>Create a collection</h1>
+        <p>Enter collection info below. Upload metadata folder + profile + banner images.</p>
+        <form class="create-collection-form">
+            <label for="collection-name">Collection Name</label>
+            <input type="text" id="collection-name" placeholder="">
+
+            <label for="vanity-url">Vanity URL</label>
+            <input type="text" id="vanity-url" placeholder="">
+            <small>https://belugas.io/collection/your-collection</small>
+
+            <label for="description">Description</label>
+            <textarea id="description" rows="4"></textarea>
+
+            <label for="profile-image">Profile Image</label>
+            <input type="file" id="profile-image">
+
+            <label for="banner-image">Banner Image</label>
+            <input type="file" id="banner-image">
+
+            <label for="metadata-folder">Upload Metadata Folder (json files only)</label>
+            <input type="file" id="metadata-folder" webkitdirectory directory multiple>
+            <small>Select a folder containing only .json files</small>
+
+            <label for="token-taxon">Token Taxon</label>
+            <input type="text" id="token-taxon" placeholder="e.g. 123456">
+
+            <label for="mint-price">Mint Price (in XRP)</label>
+            <input type="text" id="mint-price" placeholder="e.g. 2.5">
+
+            <label for="collection-category">Collection Category</label>
+            <select id="collection-category">
+                <option>-- Select Category --</option>
+                <option>Art</option>
+                <option>Music</option>
+                <option>Video</option>
+                <option>Sports</option>
+                <option>Fashion</option>
+            </select>
+
+            <label for="social-links">Social Links</label>
+            <input type="text" id="social-links" placeholder="e.g. https://twitter.com/yourcollection">
+
+            <button type="submit" class="submit-btn">Create Collection</button>
+        </form>
+    </div>
+</body>
+</html> 
