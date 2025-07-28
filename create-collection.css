@@ -5,24 +5,9 @@ body {
     margin: 0;
     min-height: 100vh;
 }
-<<<<<<< HEAD
 .create-collection-container {
     max-width: 600px;
     margin: 48px auto;
-=======
-.main-wrapper {
-    width: 1300px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-}
-
-.create-collection-container {
-    width: 100%;
-    max-width: none;
->>>>>>> 0c93e487e69b1726cab50d2c2e7eed4f8873f0e8
     background: none;
     padding: 0 0 32px 0;
 }
